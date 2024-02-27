@@ -20,7 +20,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "WoW_Musix_Bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "Wow")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Wow_x_Musix")
+ASSUSERNAME = getenv("ASSUSERNAME" , "@WowAssistant")
 # ---------------------------------------------------------
 
 
