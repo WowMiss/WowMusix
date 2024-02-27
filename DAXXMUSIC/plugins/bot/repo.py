@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-♡︎ ωεℓ¢σмє ƒσя ˹ʙʊɢ ✘ ʙᴏᴛs ˼ ♡︎
+♡︎ ωεℓ¢σмє ƒσя ˹ Ꮗᴏᴡ ✘ Ɱʊsɪx ˼ ♡︎
  
  ✯ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✯
  
@@ -31,23 +31,15 @@ async def start(_, msg):
         [ 
           InlineKeyboardButton("𝐊ɪᴅɴᴀᴘ 𝐌ᴇ ❤️‍🩹🍃", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
-        [
-          InlineKeyboardButton("❥︎ Gʀᴏᴜᴘ 1 💗🍃", url="https://t.me/+EKbRf8cIsIo3NTVl"),
-          InlineKeyboardButton("❥︎ Gʀᴏᴜᴘ 2 💗🍃", url="https://t.me/+b0Yxeq9kYO1lMjQ1"),
-          ],
 [
-              InlineKeyboardButton("˹ʙʊɢ ✘ ɢᴀϻᴇ ˼ 💗", url=f"https://t.me/BuG_x_GameBot"),
-              InlineKeyboardButton("︎˹ʙʊɢ ✘ ʀᴀɴᴋɪɴɢs ˼ 💗", url=f"https://t.me/BuG_RaNk_Bot"),
-              ],
-[
-InlineKeyboardButton("𝐎ᴡɴᴇʀ ♕︎", url=f"https://t.me/NoT_uR_SoHeL"),
+InlineKeyboardButton("𝐎ᴡɴᴇʀ ♕︎", url=f"https://t.me/WowMiss"),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/0b1903362f0a70885c091.jpg",
+        photo="https://telegra.ph/file/47f0c45304d213c424d59.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -60,7 +52,7 @@ InlineKeyboardButton("𝐎ᴡɴᴇʀ ♕︎", url=f"https://t.me/NoT_uR_SoHeL"),
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
-        response = await client.get("https://github.com/SH251204/BuGMusix/contributors")
+        response = await client.get("https://github.com/SH251204/BuGMusix")
     
     if response.status_code == 200:
         users = response.json()
