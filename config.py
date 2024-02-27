@@ -9,18 +9,18 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID","20086696"))
-API_HASH = getenv("API_HASH","ceaec4d63c9d0a76f2fc8dd85edb2eec")
+API_ID = int(getenv("API_ID","27588814"))
+API_HASH = getenv("API_HASH","2913c45c12fe552311fee1d19a18e14f")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN","")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","NoT_uR_SoHeL")
+OWNER_USERNAME = getenv("OWNER_USERNAME","WowMiss")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "BuG_Musix_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "WoW_Musix_Bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "BuG")
+BOT_NAME = getenv("BOT_NAME" , "Wow")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissBuGMusix")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Wow_x_Musix")
 # ---------------------------------------------------------
 
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002111389603))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002070841729))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6449370627))
+OWNER_ID = int(getenv("OWNER_ID", 6643350574))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+b0Yxeq9kYO1lMjQ1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+EKbRf8cIsIo3NTVl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WowBotz")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/WowSupportChat")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION","")
+STRING1 = getenv("STRING_SESSION","BAGk-M4AmrBEoepPuwJ3CetLjkV3fs0r9nRj3pD8XocFQn-zOyesCM8rST_9j7auOLclobettQ9hAhGLtFY72-JOTYq5vMxe0Iqqbg_qYEfpi1pfBGOMcpbKwZnbbjn62tAcDCmw8uEUVnelpblckud0IMO8loXMMWgijsa2LvcIBno6r-1IBqSnuyW_waqR5uyDMoLa2C0lNSJis46Xt7rg3YEo60XTBwrSgwDEkf042QOnWPr_Dhiqa9CT0Qtf_OHmfmZ25veZ8OOr_cdBgUgHXNl5W4ATZRG7sZyPkGj-8nudYSM85XWWhuzDJbcEZTocB16cLf-bTIFvdDtG-hqwbEVdCAAAAAGg1vy4AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
