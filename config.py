@@ -9,18 +9,18 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID","27588814"))
-API_HASH = getenv("API_HASH","2913c45c12fe552311fee1d19a18e14f")
+API_ID = int(getenv("API_ID",""))
+API_HASH = getenv("API_HASH","")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN","")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","WowMiss")
+OWNER_USERNAME = getenv("OWNER_USERNAME","ItzMeHeidi")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "WoW_Musix_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "HeidiMusicBot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Wow")
+BOT_NAME = getenv("BOT_NAME" , "Heidi")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "@WowAssistant")
+ASSUSERNAME = getenv("ASSUSERNAME" , "HeidiMusix")
 # ---------------------------------------------------------
 
 
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WowBotz")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/WowSupportChat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HeidiUpdates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HeidiSupport")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION","BAGk-M4AmrBEoepPuwJ3CetLjkV3fs0r9nRj3pD8XocFQn-zOyesCM8rST_9j7auOLclobettQ9hAhGLtFY72-JOTYq5vMxe0Iqqbg_qYEfpi1pfBGOMcpbKwZnbbjn62tAcDCmw8uEUVnelpblckud0IMO8loXMMWgijsa2LvcIBno6r-1IBqSnuyW_waqR5uyDMoLa2C0lNSJis46Xt7rg3YEo60XTBwrSgwDEkf042QOnWPr_Dhiqa9CT0Qtf_OHmfmZ25veZ8OOr_cdBgUgHXNl5W4ATZRG7sZyPkGj-8nudYSM85XWWhuzDJbcEZTocB16cLf-bTIFvdDtG-hqwbEVdCAAAAAGg1vy4AA")
+STRING1 = getenv("STRING_SESSION" None )
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
